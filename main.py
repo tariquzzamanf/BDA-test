@@ -19,7 +19,7 @@ def main():
     try:
         # Get and validate file path
         # file_path = input("Please provide the full path to the CSV file for augmentation: ").strip(' "')
-        file_path = "E:\BDA\BDA Framework\\training.csv"
+        file_path = "F:\Current Research\BDA-test\\augmented_data.csv"
         data = load_data(file_path)
         
         # Get augmentation parameters
@@ -29,7 +29,7 @@ def main():
         # Perform augmentation
         augmented_data = perform_augmentation(data, column_name, num_augmentations)
         
-        # Save and show results
+        # Save and show resultsc
         save_results(augmented_data)
         print_operation_summary(data, augmented_data, num_augmentations)
         

@@ -1,5 +1,6 @@
 import random
-
+from methods.synonym import BengaliSynonymReplacer
+from
 # Define augmentation functions
 def aug1(text):
     return f"1 AUG {text}"
